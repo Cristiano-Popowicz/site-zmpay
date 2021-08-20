@@ -1,38 +1,209 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.navbar{
+  font-family: 'Montserrat', sans-serif;
+}
+.section{
+  padding: 40px;
+  padding-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-heading{
+  margin-top: 30px;
+  color: #292B2C;
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.main-heading1{
+  color: #292B2C;
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.underline{
+  height: 04px;
+  width: 4rem;
+  background-color: #292B2C;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  margin-bottom: 30px;
+}
+
+.text1{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-c-light{
+  background: #f2f2f2;
+}
+
+.text2{
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#PC{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#Recebimento{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#Tempo{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.footer a{
+  color: #fff;
+  text-decoration: none !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer a:hover{
+  color: gray;
+}
+
+.copy{
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.face{
+  margin-left: 8px;
+}
+
+.insta{
+  margin-left: 8px;
+}
+
+.youtube{
+  margin-left: 8px;
+}
+
+.pricing-table{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+
+.pricing-table .block-heading {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center; 
+}
+
+.pricing-table .block-heading h2 {
+  margin-top: 30px;
+  color: #292B2C;
+  font-weight: bold;
+}
+
+.pricing-table .block-heading p {
+  color: #292B2C;
   text-align: center;
+  max-width: 420px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pricing-table .heading {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pricing-table .item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  border-top: 2px solid #292B2C;
+  padding: 30px;
+  overflow: hidden;
+  position: relative; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pricing-table .col-md-5:not(:last-child) .item {
+  margin-bottom: 30px; 
 }
 
-.App-link {
-  color: #61dafb;
+.pricing-table .ribbon {
+  width: 160px;
+  height: 32px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+  background: #292B2C;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -42px;
+  top: 20px;
+  padding-top: 7px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pricing-table .item p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pricing-table .features .feature {
+  font-weight: 600;  
+}
+
+.pricing-table .features h4 {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px; 
+}
+
+.pricing-table .price h4 {
+  margin: 40px;
+  font-size: 40px;
+  text-align: center;
+  color: #2288f9; 
+}
+
+.conteudo{
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin-bottom:20px;
+}
+
+.iframe[src*="youtube"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#Qrcode{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#id{
+  height: 300px;
+  overflow-y: scroll;
 }
